@@ -1,0 +1,1 @@
+Ekstrak folder ini, lalu buka index.html di browser (Chrome/Firefox/Edge). Tidak perlu internet.

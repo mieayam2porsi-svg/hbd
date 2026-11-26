@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Selamat Ulang Tahun Uus Uswatun Hasanah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="balloons"></div>
+<canvas id="fx"></canvas>
+
+<section class="page active" id="p0">
+  <div class="eyebrow">Sebuah Kejutan Untukmu</div>
+  <h1 class="name sm">A Special Day for<br>UUS USWATUN HASANAH</h1>
+  <p class="sub">Hari ini adalah harimu. Mari rayakan bersama cahaya, balon, dan kembang api.</p>
+  <button class="btn" data-go="1">Buka Kejutan</button>
+</section>
+
+<section class="page" id="p1">
+  <div class="card">
+    <div class="cake">&#127874;</div>
+    <h2>Welcome, Birthday Star!</h2>
+    <p>Masukkan namamu untuk masuk ke pesta.</p>
+    <input id="nm" type="text" placeholder="Ketik namamu di sini" autocomplete="off" aria-label="Nama">
+    <button class="btn" data-go="2">Masuk ke Pesta</button>
+  </div>
+</section>
+
+<section class="page" id="p2">
+  <div class="eyebrow">Selamat Merayakan</div>
+  <h1 class="name">HAPPY BIRTHDAY<br>UUS USWATUN HASANAH</h1>
+  <p class="sub">Semoga hari istimewamu dipenuhi tawa, kebahagiaan, dan kabar baik dari segala arah.</p>
+  <button class="btn" data-go="3">Baca Pesan Spesial</button>
+</section>
+
+<section class="page" id="p3">
+  <div class="eyebrow">Pesan &amp; Doa Spesial</div>
+  <h1 class="name sm">Untuk Uus Uswatun Hasanah</h1>
+  <div class="msg">
+    <div class="box"><h3>Ucapan</h3>Selamat ulang tahun, <b>Uus Uswatun Hasanah</b>. Hari ini adalah hari yang istimewa, dan kami ikut bersyukur atas kehadiranmu.</div>
+    <div class="box"><h3>Terima Kasih</h3>Terima kasih sudah menjadi pribadi yang baik, sabar, dan menginspirasi orang-orang di sekitarmu dengan sikap sederhanamu.</div>
+    <div class="box"><h3>Doa untuk Kesehatan</h3>Semoga Allah SWT senantiasa menganugerahkan kesehatan lahir dan batin, tubuh yang kuat, dan hati yang tenang.</div>
+    <div class="box"><h3>Doa untuk Umur</h3>Semoga bertambahnya usia membawa keberkahan, kebijaksanaan, dan kesempatan untuk berbuat lebih banyak kebaikan.</div>
+    <div class="box"><h3>Doa untuk Rezeki</h3>Semoga rezekimu dilapangkan, halal, dan berkah, serta selalu cukup untuk dibagikan kepada sesama.</div>
+    <div class="box"><h3>Doa untuk Cita-cita</h3>Semoga setiap impian dan cita-citamu dimudahkan jalannya, dan setiap usaha membuahkan hasil terbaik di waktu yang tepat.</div>
+    <div class="box"><h3>Doa untuk Keluarga</h3>Semoga keluarga dan orang-orang tersayangmu selalu dikelilingi kedamaian, kebersamaan, dan kebahagiaan.</div>
+    <div class="box"><h3>Doa untuk Ilmu</h3>Semoga ilmu yang kamu miliki bermanfaat, terus bertambah, dan menjadi penerang bagi dirimu serta orang lain.</div>
+    <div class="box"><h3>Doa untuk Hati</h3>Semoga hatimu selalu lapang menghadapi ujian, kuat saat lelah, dan penuh rasa syukur di setiap keadaan.</div>
+    <div class="box"><h3>Harapan</h3>Semoga tahun ini penuh pengalaman baru, tawa yang tulus, dan pertemuan dengan orang-orang baik.</div>
+    <div class="box"><h3>Pesan Semangat</h3>Teruslah melangkah dengan percaya diri. Kamu mampu melewati banyak hal, dan kami selalu mendukungmu.</div>
+    <div class="box"><h3>Penutup</h3>Tetaplah bersinar dan menjadi cahaya bagi sekitarmu. Aamiin ya Rabbal &lsquo;alamin.</div>
+  </div>
+  <button class="btn" id="nextMsg" data-go="4">Lanjut</button>
+</section>
+
+<section class="page" id="p4">
+  <div class="eyebrow">Sampai Jumpa di Tahun Berikutnya</div>
+  <h1 class="name">ONCE AGAIN,<br>HAPPY BIRTHDAY<br>UUS USWATUN HASANAH!</h1>
+  <p class="sub">Terima kasih sudah merayakan bersama kami. Semoga tahun ini menjadi tahun terbaikmu.</p>
+  <button class="btn" data-go="0">Ulangi dari Awal</button>
+</section>
+
+<div class="nav" id="nav"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
